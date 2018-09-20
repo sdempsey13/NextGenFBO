@@ -574,6 +574,23 @@ header {
     color: #283c98;
 }
 
+.upcoming-events {
+    margin-top: 60px;
+    max-width: 1000px;
+    
+}
+.event-content {
+    padding: 35 25;
+    
+}
+
+.event-content img {
+    float: left;
+    width: 400px;
+    margin: 0 45px 45px 0;
+}
+
+
 /* ------------------------------------ */
 /* STATISTICS */
 /* ------------------------------------ */
