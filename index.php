@@ -1,3 +1,67 @@
+<?php
+
+    $error = ""; $successMessage = "";
+
+    if ($_POST) {
+        
+        if (!$_POST["email"]) {
+            
+            $error .= "An email address is required.<br>";
+            
+        }
+        
+        if (!$_POST["name"]) {
+            
+            $error .= "The name field is required.<br>";
+            
+        }
+        
+        if (!$_POST["message"]) {
+            
+            $error .= "The message is required.<br>";
+            
+        }
+        
+        if ($_POST['email'] && filter_var($_POST["email"], FILTER_VALIDATE_EMAIL) === false) {
+            
+            $error .= "The email address is invalid.<br>";
+            
+        }
+        
+        if ($error != "") {
+            
+            $error = '<div class="alert alert-danger" role="alert"><p>There were error(s) in your form:</p>' . $error . '</div>';
+            
+        } else {
+            
+            $emailTo = "lkirsch@nexgenaero.com";
+            
+            $subject = "New Email from nexgenaero Contact Form";
+            
+            $content = $_POST['message'];
+            
+            $headers = "From: ".$_POST['email'];
+            
+            if (mail($emailTo, $subject, $content, $headers)) {
+                
+                $successMessage = '<div class="alert alert-success" role="alert">Your message was sent, we\'ll get back to you ASAP!</div>';
+                
+                
+            } else {
+                
+                $error = '<div class="alert alert-danger" role="alert"><p><strong>Your message couldn\'t be sent - please try again later</div>';
+                
+                
+            }
+            
+        }
+        
+        
+        
+    }
+
+?>
+
 <!DOCTYPE>
 <html lang="en">
     <head>
@@ -23,8 +87,8 @@
         <section class="section-preheader">
             <div class="row">
                 <ul class="contactlist">
-                    <li><a href="#"><ion-icon name="mail"></ion-icon>support@nextgen.com</a></li> | 
-                    <li><a href="#"><ion-icon name="call"></ion-icon>(555) 555-5555</a></li>
+                    <li><ion-icon name="mail"></ion-icon>lkirsch@nexgenaero.com</a></li> | 
+                    <li><ion-icon name="call"></ion-icon>(516) 318-5991</a></li>
                 </ul>
             </div>
         
@@ -37,9 +101,9 @@
                     <a href="#header"><img src="resources/img/NextgGen-Logo-Final-web-mini.png" alt="NextGen Logo" class="logoMini"></a>
                     <ul class="main-nav">
                         <li><a href="#team">About Us</a></li>
-                        <li><a href="#team">Upcoming Events</a></li>
+                        <li><a href="#upcoming-events">Upcoming Events</a></li>
                         <li><a href="#contact">Contact</a></li>
-                        <li class="stickyPhone"><ion-icon name="call"></ion-icon>(555) 555-5555</li>
+                        <li class="stickyPhone"><ion-icon name="call"></ion-icon>(516) 318-5991</li>
                     </ul>
                 </div>
             </nav>
@@ -65,9 +129,9 @@
         
         <section class="section-sales js--section-sales" id="sales">            
             <div class="row">
-                <h2>We Take Your Buisness From Preparation Through Close</h2>
+                <h2>WE GUIDE YOUR BUSINESS FROM SALE PREPARATION TO COMPLETION</h2>
                 <p class="long-copy"> 
-                  Our team of industry veterans will optimize your Business for a sale and then guide you through the entire sales process. If you are thinking about selling, you can contact us here to get the process started…
+                  Our team of industry veterans will help optimize your business to prepare it for sale and then manage the entire sales process.  We will seek the maximum price and the best conditions of sale. We will advocate for the owners, employees, customers, community and airport authority. We will not let you down!!
                 </p>
             </div>
         
@@ -166,8 +230,8 @@
             </div>
             
             <div class="row short-row">
-                <img src="resources/img/gary_ogden.jpg" alt="Gary Douglas Odgen" class="teamPortraits">
-                <h3>Gary Douglas Odgen &mdash; Managing Partner</h3>
+                <img src="resources/img/gary_ogden.jpg" alt="Gary Douglas Ogden" class="teamPortraits">
+                <h3>Gary Douglas Ogden &mdash; Managing Partner</h3>
                 <p>Gary Ogden has more than thirty-five years in the aviation, transportation, construction, and consulting industries. Gary has held leadership positions with GTA dnata, Sunwing Airlines and Servisair.</p>
                 <a class="btn btn-ghost btn-bio" href="bios/gary_odgen.html">Read Full Bio</a>
             </div>
@@ -207,7 +271,7 @@
                 <a class="btn btn-ghost btn-bio" href="bios/mark_willey.html">Read Full Bio</a>
             </div>
 
-            <div class="row upcoming-events">
+            <div class="row upcoming-events" id="upcoming-events">
                 <h2>Upcoming Events</h2>
                 <div class="event-content">
                     <img src="resources/img/NBAA2018-large-promo.jpg" alt="NBAA BUSINESS AVIATION CONVENTION & EXHIBITION (NBAA-BACE)" class="eventBanner">
@@ -252,13 +316,18 @@
                 <h2>The NextGen Difference</h2>
             </div>
             <div class ="row">
-                <p>We will obtain the best conditions of sale for you. Options include the use of an earn-out, money held in escrow, representations, warranties and indemnities, retentions of employees, a continuing role for some or all of the owners, and the duration and geographical limitations of a non-compete.</p><br>
-                
-                <p>We will ensure confidentiality so that your employees, customers and your airport authority does not learn about your possible sale until you are ready to disclose.</p><br>
-                <p>We will help to normalize and improve any estranged relationships.</p><br>
-                <p>Wi will make sure you can continue to focus on your business.<br><br>
-                We will make sure you can continue in business and continue to compete if there is insufficient interest or if satisfactory terms cannot be agreed upon.</p><br>  
-                <p>We will protect you against the disclosure or the use of confidential business or personal information.</p>  
+                <p>We strive to obtain the best conditions of sale based upon what is most important to our clients.<br><br>  
+
+                We work with our client’s counsel to limit representations and warranties, indemnities, as well as the duration and geographical limitations of non-competition covenants.<br><br>    
+
+                We evaluate whether an earn-out works for both parties.<br><br>    
+
+                If requested, we will seek to protect existing employees, and explore a continuing role for some or all of the owners.<br><br>    
+
+                We work to ensure confidentiality so that your employee's, customers and airport authorities do not learn about your possible sale until you are ready to disclose, and we help normalize and improve any estranged relationships.<br><br>  
+
+                We help you focus on your day to day business needs during the sale process.
+                </p>  
 
             </div>
         
@@ -273,9 +342,11 @@
                     <h2>Our Compensation</h2>
                 <div>
                     <ul>
-                        <li>We charge reasonable rates, either at a set fee, on an hourly basis, or a monthly retainer to assess your business and assist you prepare for a sale.</li><br>
-                        <li>If you choose to let us broker your sale, we seek a fair and reasonable commission based on the price paid for your business.</li><br>
-                        <li>We seek reimbursement of out of pocket costs.</li>
+                        <li>While we assess the possible sale price of your business at no cost, if requested to help prepare you for sale by auditing and recommending changes in operations, management, accounting, etc., we charge either a set fee, or an hourly or daily rate.<br><br>
+                        When we broker your sale, we charge a fair and reasonable commission based on the price paid for your business.<br><br>
+                        Reimbursement for our expenses are at our direct cost.<br><br>
+                        WE FOCUS ON DOING RIGHT BY YOU!!
+                        </li>
                     </ul>
                 </div>
                 </div>
@@ -299,11 +370,11 @@
             <div class="row">
                     <h2>Contact US</h2>
                     <p class="long-copy">
-                        Are you ready for a professional, experienced group of aviation veterans to help you get your company ready for sale and then to sell your company? Then contact us here and we will be in touch with you shortly.
+                        If you are considering selling your business now, or in the future, let our industry veterans work for you.  We will confidentially contact you immediately upon hearing from you.
                     </p>
             </div>
             <div class="row">
-                <form method="post" action="#" class="contact-form">
+                <form method="post" class="contact-form">
                     <label for="name"><p>Name</p></label>
                     <input type="text" name="name" id="name" placeholder="Your Name" required>
                     <br>
@@ -311,7 +382,7 @@
                     <input type="email" name="email" id="email" placeholder="Your Email" required>
                     <label for="message">Drop Us A Line</label>
                     <textarea name="message" placeholder="Your Message"></textarea> 
-                    <input type="submit" value="Send" class="btn btn-full">
+                    <input type="submit" name ="submit" value="Send" class="btn btn-full">
                 </form>
             </div>
         </section>
@@ -324,10 +395,9 @@
                 <ul class="footerList">
                     <li>FBO Sales |</li>
                     <li>Ground Handling Sales |</li>
-                    <li>Address |</li>
-                    <li>New York, New York 10005 |</li>
-                    <li>(555) 555-5555 |</li>
-                    <li>support@nextgen.com</li>
+                    <li>New York, New York |</li>
+                    <li>(516) 318-5991 |</li>
+                    <li>lkirsch@nexgenaero.com</li>
                 </ul>
             
             </div>
