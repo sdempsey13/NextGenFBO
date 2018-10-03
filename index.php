@@ -97,7 +97,7 @@
         <header id="header">
             <nav>
                 <div class="row">
-                    <a href="#header"><img src="resources/img/NextgGen-Logo-Final-web-brokers.png" alt="NextGen Logo" class="logo"></a>
+                    <a href="#header"><img src="resources/img/NextgGen-Logo-Final-web.png" alt="NextGen Logo" class="logo"></a>
                     <a href="#header"><img src="resources/img/NextgGen-Logo-Final-web-mini.png" alt="NextGen Logo" class="logoMini"></a>
                     <ul class="main-nav">
                         <li><a href="#team">About Us</a></li>
@@ -131,7 +131,15 @@
             <div class="row">
                 <h2>WE GUIDE YOUR BUSINESS FROM SALE PREPARATION TO COMPLETION</h2>
                 <p class="long-copy"> 
-                  Our team of industry veterans will help optimize your business to prepare it for sale and then manage the entire sales process.  We will seek the maximum price and the best conditions of sale. We will advocate for the owners, employees, customers, community and airport authority. We will not let you down!!
+                  We are aviation industry insiders who
+                  have all been involved in business acquisitions including serving
+                  on due diligence teams, identifying qualified buyers for strategic
+                  synergies and operational efficiencies, lease negotiations on
+                  behalf of tenants and airport authority.<br><br>
+                  Nextgen has global relationships that allow us to create unique
+                  paths of opportunities for you.<br><br>
+                  We maintain your confidence and trust by earning it, before,
+                  during and after the transaction.
                 </p>
             </div>
         
@@ -139,7 +147,7 @@
                 <div class="col span-1-of-2 box">
                     <ion-icon name="search"></ion-icon>
                     <h3>Assessment</h3>
-                    <p>Once you contact us, we  begin to gather as much information as possible about your business from you and from public sources. <br><br>Then, we’ll arrange a confidential visit where we will tour your facility, meet your principles and discuss our findings and approach. From there, we will tailor a Plan and a Strategy for your review and direction.<br><br>We take no actions nor discuss your interests with anyone without your specific instructions. <br><br><em>You remain in the driver’s seat at all times.</em>
+                    <p>Once you contact us, we  begin to gather as much information as possible about your business from you and from public sources. <br><br>Then, we’ll arrange a confidential visit where we will tour your facility, meet your principals and discuss our findings and approach. From there, we will tailor a Plan and a Strategy for your review and direction.<br><br>We take no actions nor discuss your interests with anyone without your specific instructions. <br><br><em>You remain in the driver’s seat at all times.</em>
                     </p>
                 </div>
                 <div class="col span-1-of-2 box">
@@ -219,58 +227,58 @@
                 <h2>Our Team</h2>
                 <p class="long-copy">
                 We are industry veterans who have all been involved in business acquisitions including operational due diligence, the creation of synergies, financial analysis, drafting and negotiation of acquisition agreements and closing documents, and contact with airport authorities.<br><br>
-                <em class="em">Most importantly, we have relationships with all industry buyers and the personalities and abilities to get the job done right!</em>
+                    <em class="em"><b>Most importantly, we have relationships with all industry buyers and the personalities and abilities to get the job done right!</b></em>
                 </p>
             </div>
             
             <div class="row short-row">    
                 <img src="resources/img/leonard_kirsch.jpg" alt="Leonard Kirsch" class="teamPortraits">
-                <h3>Leonard Kirsch &mdash; Director General &amp; CEO</h3>
-                <p>Leonard D. Kirsch has practiced aviation and international law for nearly forty years. He has been active in both the FBO and ground handling industries and their trade associations, and has represented large FBO chains and international handlers, as well as family owned and single airport FBOs and handling companies. </p>
+                <h3>Leonard Kirsch &mdash; Managing Director &amp; CEO</h3>
+                <p>Leonard D. Kirsch has practiced aviation and international law for nearly forty years. He has been active in both the FBO and ground handling industries and their trade associations, and has represented large FBO chains and international handlers as well as family owned and single airport FBOs and handling companies. </p>
                 <a class="btn btn-ghost btn-bio" href="bios/leonard_kirsch.html">Read Full Bio</a>
             </div>
             
             <div class="row short-row">
+                <img src="resources/img/Millie_babe.jpg.2.jpg" alt="Millie Hernandez-Becker" class="teamPortraits">
+                <h3>Millie Hernandez-Becker &mdash; Managing Director</h3>
+                <p>Millie Hernandez-Becker has experience in airport operations, FBO development, private jet charter, strategic planning, airport infrastructure, and general aviation. Her unique talents include business development, marketing and strategic planning, airport infrastructure and having an extensive industry network. </p>
+                <a class="btn btn-ghost btn-bio" href="bios/millie_becker.html">Read Full Bio</a>
+            </div>
+            
+            <div class="row short-row">
                 <img src="resources/img/gary_ogden.jpg" alt="Gary Douglas Ogden" class="teamPortraits">
-                <h3>Gary Douglas Ogden &mdash; Managing Partner</h3>
+                <h3>Gary Douglas Ogden &mdash; Managing Director</h3>
                 <p>Gary Ogden has more than thirty-five years in the aviation, transportation, construction, and consulting industries. Gary has held leadership positions with GTA dnata, Sunwing Airlines and Servisair.</p>
                 <a class="btn btn-ghost btn-bio" href="bios/gary_odgen.html">Read Full Bio</a>
             </div>
               
             <div class="row short-row">        
                 <img src="resources/img/gilles_korstange.jpg" alt="Gilles Korstange" class="teamPortraits">
-                <h3>Gilles Korstange &mdash; Managing Partner, Europe</h3>
-                <p>Gilles Korstange is based in Belgium. Gilles has held executive positions in airline catering and ground handling industry, including Martinair Food, Aviapartner Catering and Aviapartner Handling, directed Menzies Aviation activities in Amsterdam and until 2014served as Menzies’ Director Business Development Western-Europe.</p>
+                <h3>Gilles Korstange &mdash; Managing Director, Europe</h3>
+                <p>Gilles Korstange is based in Belgium. Gilles has held executive positions in the airline catering and ground handling industries, including Martinair Food, Aviapartner Catering and Aviapartner Handling, directed Menzies Aviation activities in Amsterdam and until 2014 served as Menzies’ Director, Business Development Western-Europe.</p>
                 <a class="btn btn-ghost btn-bio" href="bios/gilles_korstange.html">Read Full Bio</a>
             </div>
              
             <div class="row short-row">
                 <img src="resources/img/david_finch.jpg" alt="David Finch" class="teamPortraits">
-                <h3>David Finch &mdash; Managing Partner</h3>
-                <p>David Finch was Senior Vice President, Business Development, at Servisair, a commercial airport ground handling company acquired by Swissport where he was responsible for sales, marketing, contract negotiations, pricing and contract administration.  From 1995 to 2007 he was a Vice Chairman of the IATA Ground Handling Council (IGHC).</p>
+                <h3>David Finch &mdash; Managing Director</h3>
+                <p>David Finch was Senior Vice President, Business Development, at Servisair, a commercial airport ground handling company acquired by Swissport, where he was responsible for sales, marketing, contract negotiations, pricing and contract administration.  From 1995 to 2007 he was a Vice Chairman of the IATA Ground Handling Council (IGHC).</p>
                 <a class="btn btn-ghost btn-bio" href="bios/david_finch.html">Read Full Bio</a>
             </div>
 
             <div class="row short-row">
                 <img src="resources/img/glen_gross.jpg" alt="Glen Gross" class="teamPortraits">
-                <h3>Glen Gross &mdash; Managing Partner</h3>
-                <p>Glen Gross recently retired from Atlantic Aviation as Vice President of Operations, Eastern Region, Previously, he spent fifteen years as a manager and executive in an international ground handling company, managing and directing operations at LGA, JFK and EWR, including into-plane fueling, ground handling, cargo warehousing and de-icing operations.</p>
+                <h3>Glen Gross &mdash; Managing Director</h3>
+                <p>Glen Gross recently retired from Atlantic Aviation as Vice President of Operations, Eastern Region. Previously, he spent fifteen years as a manager and executive in an international ground handling company, managing and directing operations at LGA, JFK and EWR, including into-plane fueling, ground handling, cargo warehousing and de-icing operations.</p>
                 <a class="btn btn-ghost btn-bio" href="bios/glen_gross.html">Read Full Bio</a>
             </div>
 
             <div class="row short-row">
-                <img src="resources/img/millie_becker.jpg" alt="Millie Hernandez-Becker" class="teamPortraits">
-                <h3>Millie Hernandez-Becker &mdash; Managing Partner</h3>
-                <p>Millie Hernandez-Becker has experience in airport operations, FBO development, private jet charter, strategic planning, airport infrastructure, and general aviation. Her unique talents include business development, marketing and strategic planning, airport infrastructure and an extensive network. </p>
-                <a class="btn btn-ghost btn-bio" href="bios/millie_becker.html">Read Full Bio</a>
-            </div>
-
-            <div class="row short-row">
                 <img src="resources/img/mark_willey.jpg" alt="Mark Willey" class="teamPortraits">
-                <h3>Mark Willey &mdash; Managing Partner</h3>
+                <h3>Mark Willey &mdash; Joining Soon</h3>
                 <p>Mark Willey, as managing partner of Corporate Airpark Inc., guided his companies, Napa Jet Center and Actus Aviation, through a successful sale in June 2018.<br><br>
 
-                His Industry experience and professionalism is exampled by his membership in the renowned FBO20 Group and in 2016, Mark was honored by the industry when he received the NATA Distinguished Service Award. </p>
+                His Industry experience and professionalism is shown by his membership in the renowned FBO#1 (20 Group) and in 2016, Mark was honored by the industry when he received the NATA Distinguished Service Award. </p>
                 <a class="btn btn-ghost btn-bio" href="bios/mark_willey.html">Read Full Bio</a>
             </div>
 
@@ -279,7 +287,7 @@
                 <div class="event-content">
                     <img src="resources/img/IAGSE_Logo.jpg" alt="International Airport GSE Expo" class="eventBanner">
                     <h3>International Airport GSE Expo</h3>
-                    <p>We'll be at the International Airport GSE Expo in Las Vegas from October 2 - 4. There is nowhere else in the world in 2018 that you can see so much ground support equipment in one place at one time.  </p><br><br>
+                    <p>We'll be at the International Airport GSE Expo in Las Vegas from October 2 - 4. There is nowhere else in the world in 2018 where you can see so much ground support equipment in one place at one time.  </p><br><br>
                     <a class="btn btn-full" href="#contact">Contact us to set up a meeting at the show.</a>
                     <!-- add to class="btn btn-full js--scroll-to-sales" if broken -->
                 </div>
@@ -293,7 +301,7 @@
                 <div class="event-content">
                     <img src="resources/img/TIACA.jpg" alt="TIACA'S AIR CARGO FORUM AND EXHIBITION" class="eventBanner">
                     <h3>TIACA's Air Cargo Forum And Exhibition</h3>
-                    <p>Visit us at TIACA's Air Cargo Forum And Exhibition in Toronto Canada from October 16 - 18. It's an event not to be missed! TIACA’s International Air Cargo Forum and Exhibition is the premier air cargo industry event.</p><br><br>
+                    <p>Visit us at TIACA's Air Cargo Forum And Exhibition in Toronto, Canada from October 16 - 18. It's an event not to be missed! TIACA’s International Air Cargo Forum and Exhibition is the premier air cargo industry event.</p><br><br>
                     <a class="btn btn-full" href="#contact">Contact us to set up a meeting at the show.</a>
                     <!-- add to class="btn btn-full js--scroll-to-sales" if broken -->
                 </div>
@@ -341,7 +349,7 @@
 
                 If requested, we will seek to protect existing employees, and explore a continuing role for some or all of the owners.<br><br>    
 
-                We work to ensure confidentiality so that your employee's, customers and airport authorities do not learn about your possible sale until you are ready to disclose, and we help normalize and improve any estranged relationships.<br><br>  
+                We work to ensure confidentiality so that your employees, customers and airport authorities do not learn about your possible sale until you are ready to disclose, and we help normalize and improve any estranged relationships.<br><br>  
 
                 We help you focus on your day to day business needs during the sale process.
                 </p>  
@@ -359,11 +367,20 @@
                     <h2>Our Compensation</h2>
                 <div>
                     <ul>
+                        <li>Nextgen Business Brokers will conduct an Assessment of your business at no cost to you. We may offer suggestions which will help justify and maximize sale price.<br><br>
+
+                        If you request assistance prior to sale, our compensation will be based on time and deliverables. Our team can save you time and money by providing strategies and introducing resources for a successful outcome.<br><br>
+
+                        Our Brokerage Fee is based on a percentage of the sale price.
+                        </li>
+                        <!--
                         <li>While we assess the possible sale price of your business at no cost, if requested to help prepare you for sale by auditing and recommending changes in operations, management, accounting, etc., we charge either a set fee, or an hourly or daily rate.<br><br>
                         When we broker your sale, we charge a fair and reasonable commission based on the price paid for your business.<br><br>
                         Reimbursement for our expenses are at our direct cost.<br><br>
                         WE FOCUS ON DOING RIGHT BY YOU!!
                         </li>
+-->
+                        
                     </ul>
                 </div>
                 </div>
